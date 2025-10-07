@@ -2,10 +2,11 @@ import React from "react";
 import playImg from "../assets/playstore.png";
 import appImg from "../assets/appstore.png";
 import banner from "../assets/hero.png";
+import TopApps from "../Components/TopApps";
 const Home = () => {
   return (
     <>
-      <div className="">
+      <div className="mb-20">
         <div className="flex flex-col items-center px-5">
           <div>
             <h1 className="max-w-[600px] mx-auto text-center leading-tight font-black text-4xl md:text-7xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text mt-20">
@@ -55,6 +56,8 @@ const Home = () => {
             </div>
           </div>
         </div>
+        {/* top apps */}
+        <TopApps />
       </div>
     </>
   );

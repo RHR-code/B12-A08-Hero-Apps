@@ -113,10 +113,10 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold text-base">
+        <button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold text-base">
           {" "}
           <FaGithub /> Contribute
-        </a>
+        </button>
       </div>
     </div>
   );
