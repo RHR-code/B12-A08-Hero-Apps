@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <div className="">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center px-5">
           <div>
             <h1 className="max-w-[600px] mx-auto text-center leading-tight font-black text-4xl md:text-7xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text mt-20">
               We Build <span className="text-transparent">Productive</span> Apps
@@ -26,6 +26,34 @@ const Home = () => {
             </div>
           </div>
           <img src={banner} alt="" />
+        </div>
+        <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-5 text-center py-20 text-white">
+          <h1 className="font-bold text-4xl md:text-5xl leading-tight">
+            Trusted by Millions, Built for You
+          </h1>
+          <div className="flex flex-col md:flex-row items-center justify-center gap-6 pt-10">
+            <div className="text-base px-16">
+              <h4>Total Downloads</h4>
+              <h1 className="font-extrabold md:text-[64px] text-[48px]">
+                29.6M
+              </h1>
+              <h4>21% more than last month</h4>
+            </div>
+            <div className="text-base px-16">
+              <h4>Total Reviews</h4>
+              <h1 className="font-extrabold md:text-[64px] text-[48px]">
+                906K
+              </h1>
+              <h4>46% more than last month</h4>
+            </div>
+            <div className="text-base px-16">
+              <h4>Active Apps</h4>
+              <h1 className="font-extrabold md:text-[64px] text-[48px]">
+                132+
+              </h1>
+              <h4>31 more will Launch</h4>
+            </div>
+          </div>
         </div>
       </div>
     </>
