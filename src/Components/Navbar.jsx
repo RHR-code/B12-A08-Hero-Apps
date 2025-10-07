@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import { NavLink } from "react-router";
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm">
@@ -35,32 +36,22 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <p className="flex items-center gap-2 text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text">
+        <div className="flex items-center gap-2 text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text">
           {" "}
           <img className="w-10" src={logo} alt="" />{" "}
           <h2 className="text-transparent font-bold text-base">HERO.IO</h2>
-        </p>
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Item 1</a>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
+            <NavLink to="/apps">Apps</NavLink>
           </li>
           <li>
-            <a>Item 3</a>
+            <NavLink to="/installation">Installation</NavLink>
           </li>
         </ul>
       </div>
