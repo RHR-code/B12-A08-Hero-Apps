@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import { NavLink } from "react-router";
+import { FaGithub } from "react-icons/fa";
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm">
@@ -27,12 +28,41 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
-            <li>
-              <a>Item 1</a>
+            <li className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-transparent underline decoration-[#632EE3]"
+                    : ""
+                }
+                to="/"
+              >
+                Home
+              </NavLink>
             </li>
-            <li></li>
-            <li>
-              <a>Item 3</a>
+            <li className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-transparent underline decoration-[#632EE3]"
+                    : ""
+                }
+                to="/apps"
+              >
+                Apps
+              </NavLink>
+            </li>
+            <li className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-transparent underline decoration-[#632EE3]"
+                    : ""
+                }
+                to="/installation"
+              >
+                Installation
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -43,20 +73,50 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <NavLink to="/">Home</NavLink>
+        <ul className="menu menu-horizontal px-1 font-semibold text-base">
+          <li className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text">
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "text-transparent underline decoration-[#632EE3]"
+                  : ""
+              }
+              to="/"
+            >
+              Home
+            </NavLink>
           </li>
-          <li>
-            <NavLink to="/apps">Apps</NavLink>
+          <li className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text">
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "text-transparent underline decoration-[#632EE3]"
+                  : ""
+              }
+              to="/apps"
+            >
+              Apps
+            </NavLink>
           </li>
-          <li>
-            <NavLink to="/installation">Installation</NavLink>
+          <li className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text">
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "text-transparent underline decoration-[#632EE3]"
+                  : ""
+              }
+              to="/installation"
+            >
+              Installation
+            </NavLink>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold text-base">
+          {" "}
+          <FaGithub /> Contribute
+        </a>
       </div>
     </div>
   );
