@@ -1,0 +1,11 @@
+import "./App.css";
+
+function App() {
+  return (
+    <>
+      <h1>Project Initiated</h1>
+    </>
+  );
+}
+
+export default App;
