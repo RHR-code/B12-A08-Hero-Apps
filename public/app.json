@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://plus.unsplash.com/premium_photo-1721910821733-426f4435f1ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "PhotoSnap Editor",
+    "companyName": "Creative Apps Inc.",
+    "id": 1,
+    "description": "Unleash your inner artist with PhotoSnap Editor, the ultimate photo editing app designed for both beginners and professionals. Enhance your pictures with powerful tools, stunning filters, and intuitive adjustments. From basic crops and rotations to advanced color correction and artistic effects, PhotoSnap provides everything you need to transform your ordinary photos into extraordinary masterpieces. Share your creations seamlessly with friends and family, and explore a vibrant community of photographers. With regular updates and new features, PhotoSnap Editor keeps your creative options fresh and exciting. Download now and start making every photo perfect!",
+    "size": 75,
+    "reviews": 12345,
+    "ratingAvg": 4.7,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 7195 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "FitLife Tracker",
+    "companyName": "Health & Wellness Co.",
+    "id": 2,
+    "description": "Achieve your fitness goals with FitLife Tracker, your personal health companion. Monitor your steps, calories burned, heart rate, and sleep patterns with ease. Set personalized goals, track your progress, and stay motivated with insightful analytics and friendly reminders. FitLife Tracker integrates seamlessly with popular wearable devices, ensuring all your data is in one place. Discover customized workout plans and nutritional advice to complement your lifestyle. Whether you're a seasoned athlete or just starting your fitness journey, FitLife Tracker provides the tools and support you need to live a healthier, more active life. Get started today and transform your well-being!",
+    "size": 60,
+    "reviews": 9876,
+    "ratingAvg": 4.5,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 5526 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1526779259212-939e64788e3c?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Mindful Meditations",
+    "companyName": "Serene Minds LLC",
+    "id": 3,
+    "description": "Find peace and calm with Mindful Meditations, your guide to inner tranquility. This app offers a wide range of guided meditations, from short daily sessions to longer, more immersive experiences. Improve your focus, reduce stress, and enhance your overall well-being with techniques rooted in mindfulness and compassion. Choose from various themes like sleep, anxiety relief, gratitude, and more. Personalized programs and progress tracking help you build a consistent meditation practice. Mindful Meditations is designed to help you cultivate a more present and balanced life, making mindfulness accessible to everyone, regardless of experience level. Begin your journey to a calmer you.",
+    "size": 80,
+    "reviews": 7500,
+    "ratingAvg": 4.8,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 5070 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1589822826330-ac4ab15f7225?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "BudgetFlow Planner",
+    "companyName": "Financial Freedom Inc.",
+    "id": 4,
+    "description": "Take control of your finances with BudgetFlow Planner, the intuitive budgeting app that makes managing money easy. Track your income and expenses, set spending limits, and categorize your transactions to gain a clear understanding of where your money goes. Create personalized budgets for different areas of your life and receive alerts when you're nearing your limits. BudgetFlow Planner offers visual reports and charts to help you visualize your financial health and make informed decisions. Start saving for your goals, pay off debt, and achieve financial peace of mind. Your path to financial stability begins here with BudgetFlow Planner.",
+    "size": 45,
+    "reviews": 15000,
+    "ratingAvg": 4.6,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 8650 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=853&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "RecipeGenius",
+    "companyName": "Culinary Creations",
+    "id": 5,
+    "description": "Discover your next favorite meal with RecipeGenius, an expansive collection of delicious recipes from around the globe. Whether you're looking for quick weeknight dinners, elaborate holiday feasts, or healthy meal prep ideas, RecipeGenius has you covered. Explore recipes by cuisine, dietary restrictions, ingredients, and cooking time. Save your favorite recipes, create shopping lists, and follow step-by-step instructions with ease. Our intelligent recommendation engine suggests new dishes based on your preferences. Become a culinary master and impress your friends and family with amazing meals. Transform your cooking experience with RecipeGenius!",
+    "size": 90,
+    "reviews": 11000,
+    "ratingAvg": 4.7,
+    "downloads": 4500000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 5500 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1673515334669-1e445e4f4c3f?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "LanguageLink",
+    "companyName": "Global Connect Edu",
+    "id": 6,
+    "description": "Unlock a new world with LanguageLink, the fun and effective way to learn new languages. Choose from dozens of languages and embark on an engaging learning journey with interactive lessons, pronunciation exercises, and real-life conversation practice. Our gamified approach makes learning addictive and rewarding, keeping you motivated to reach fluency. Connect with native speakers for language exchange and immerse yourself in cultural insights. Whether you're planning a trip, boosting your career, or simply expanding your horizons, LanguageLink provides the tools and community to help you succeed. Start speaking a new language confidently today!",
+    "size": 110,
+    "reviews": 18000,
+    "ratingAvg": 4.8,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 11320 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "CodeMentor IDE",
+    "companyName": "DevSolutions Ltd.",
+    "id": 7,
+    "description": "Develop on the go with CodeMentor IDE, your portable coding environment. Write, compile, and run code in multiple programming languages directly from your device. With syntax highlighting, auto-completion, and integrated debugging tools, CodeMentor IDE offers a professional development experience wherever you are. Access cloud storage for your projects, collaborate with teammates, and test your algorithms seamlessly. Whether you're a student learning to code, a seasoned developer prototyping an idea, or participating in a coding challenge, CodeMentor IDE empowers you to be productive and creative outside of your desktop setup. Your mobile coding studio awaits!",
+    "size": 150,
+    "reviews": 6000,
+    "ratingAvg": 4.4,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 2300 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1610296669228-602fa827fc1f?w=300&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFzdHJvbm9teXxlbnwwfHwwfHx8MA%3D%3D",
+    "title": "Stellar Scope",
+    "companyName": "Cosmic Explorers",
+    "id": 8,
+    "description": "Embark on an astronomical journey with Stellar Scope, your guide to the night sky. Explore constellations, planets, stars, and galaxies with stunning visuals and real-time celestial tracking. Simply point your device at the sky to identify objects instantly. Learn fascinating facts about cosmic phenomena, celestial mechanics, and the history of space exploration. Access detailed information, beautiful imagery, and educational videos that deepen your understanding of the universe. Stellar Scope is perfect for stargazers of all ages, from curious beginners to experienced astronomers. Discover the wonders of space from the palm of your hand and ignite your passion for the cosmos!",
+    "size": 120,
+    "reviews": 9000,
+    "ratingAvg": 4.9,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 5720 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1549716679-95380658d5cd?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Creative Canvas",
+    "companyName": "Artistic Tools Co.",
+    "id": 9,
+    "description": "Unleash your artistic flair with Creative Canvas, a versatile drawing and painting app. Whether you're sketching, painting, or doodling, Creative Canvas offers a rich set of brushes, colors, and layers to bring your ideas to life. Enjoy a smooth, responsive drawing experience with advanced features like pressure sensitivity and customizable tools. Share your artwork with a thriving community of artists, participate in challenges, and get inspired by others' creations. Perfect for artists of all levels, from beginners experimenting with digital art to professionals needing a portable studio. Transform your device into a powerful art tool today!",
+    "size": 95,
+    "reviews": 10000,
+    "ratingAvg": 4.7,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 5390 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1612721530870-48b8c7f3a837?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Travel Buddy Guide",
+    "companyName": "Wanderlust Apps",
+    "id": 10,
+    "description": "Explore the world with Travel Buddy Guide, your essential companion for every adventure. Discover hidden gems, popular attractions, and local recommendations in thousands of cities worldwide. Access offline maps, currency converters, and phrasebooks to navigate new destinations with confidence. Plan your itineraries, book accommodations, and find the best dining experiences all within one app. Share your travel stories and tips with a global community of explorers. Travel Buddy Guide ensures you have everything you need for a memorable and stress-free journey, whether you're backpacking across continents or enjoying a weekend getaway. Your next adventure starts here!",
+    "size": 85,
+    "reviews": 13000,
+    "ratingAvg": 4.6,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 7350 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "MusicMix Studio",
+    "companyName": "Audio Innovations",
+    "id": 11,
+    "description": "Create beats and mix tracks like a pro with MusicMix Studio, a powerful mobile music production app. Record your own vocals, add instruments, and arrange samples to produce professional-quality music. With a vast library of loops, effects, and virtual instruments, your creative possibilities are endless. Intuitive interface makes it easy for beginners, while advanced features cater to experienced producers. Share your tracks with the world, collaborate with other artists, and discover new sounds. MusicMix Studio is your portable recording studio, empowering you to make music anytime, anywhere. Unleash your inner musician and start producing today!",
+    "size": 130,
+    "reviews": 7000,
+    "ratingAvg": 4.5,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 3250 }
+    ]
+  },
+  {
+    "image": "https://plus.unsplash.com/premium_photo-1680286739871-01142bc609df?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "GreenThumb Gardener",
+    "companyName": "Nature's Nurturers",
+    "id": 12,
+    "description": "Cultivate your perfect garden with GreenThumb Gardener, your comprehensive plant care guide. Identify plants, diagnose issues, and get personalized watering and feeding schedules. Access a vast database of plant information, from common houseplants to exotic flora. Set reminders for watering, fertilizing, and repotting, ensuring your plants thrive. Connect with a community of fellow gardeners, share tips, and showcase your green successes. Whether you're a novice looking to keep a single succulent alive or an experienced horticulturist managing a sprawling garden, GreenThumb Gardener provides expert advice and tools for every plant lover. Grow smarter, not harder!",
+    "size": 70,
+    "reviews": 8500,
+    "ratingAvg": 4.7,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4820 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1677912322467-15a8ab677c12?q=80&w=887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "StoryWeaver Reader",
+    "companyName": "Literary Labs",
+    "id": 13,
+    "description": "Dive into captivating narratives with StoryWeaver Reader, your personal library on the go. Discover a vast collection of ebooks, audiobooks, and magazines across all genres. Customize your reading experience with adjustable fonts, themes, and brightness settings for optimal comfort. Sync your progress across devices and pick up exactly where you left off. Explore curated recommendations, create wishlists, and connect with a community of avid readers. Whether you enjoy thrilling mysteries, heartwarming romances, insightful non-fiction, or classic literature, StoryWeaver Reader offers endless stories to ignite your imagination. Your next great read is just a tap away!",
+    "size": 55,
+    "reviews": 16000,
+    "ratingAvg": 4.8,
+    "downloads": 7500000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 5500 },
+      { "name": "5 star", "count": 9950 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1588591795084-1770cb3be374?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "PixelPuzzle Games",
+    "companyName": "Brain Teaser Studios",
+    "id": 14,
+    "description": "Challenge your mind with PixelPuzzle Games, a collection of addictive and brain-teasing puzzles. From logic games and crosswords to Sudoku and jigsaws, find endless hours of entertainment that sharpen your cognitive skills. Enjoy beautifully designed pixel art graphics and intuitive controls. Track your progress, earn achievements, and compete with friends on leaderboards. New puzzles are added regularly to keep your brain engaged and your skills honed. PixelPuzzle Games offers a perfect blend of challenge and relaxation, suitable for all ages. Download now and give your brain a fun workout, improving problem-solving abilities one puzzle at a time!",
+    "size": 65,
+    "reviews": 14000,
+    "ratingAvg": 4.6,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 8250 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1723186773193-621feea595c5?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "SmartHome Connect",
+    "companyName": "Future Living Tech",
+    "id": 15,
+    "description": "Manage your smart home devices seamlessly with SmartHome Connect, the ultimate control hub. Connect and control lights, thermostats, security cameras, locks, and more from a single, intuitive interface. Create custom scenes and automations to simplify your daily routines – like dimming lights for movie night or adjusting the temperature before you arrive home. Receive real-time alerts and monitor your home's status from anywhere in the world. SmartHome Connect is compatible with a wide range of popular smart home brands, providing unparalleled convenience and peace of mind. Experience the future of home automation today!",
+    "size": 50,
+    "reviews": 9500,
+    "ratingAvg": 4.7,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 5380 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "TaskMaster Pro",
+    "companyName": "Productivity Hub",
+    "id": 16,
+    "description": "Boost your productivity with TaskMaster Pro, the ultimate task management and टू-do list app. Organize your tasks, set priorities, and create deadlines with ease. Break down large projects into smaller, manageable steps and track your progress visually. TaskMaster Pro offers smart reminders, recurring tasks, and collaboration features to keep you and your team on track. Sync across all your devices and access your tasks from anywhere. Whether for personal goals, academic projects, or professional workflows, TaskMaster Pro helps you stay focused, reduce stress, and achieve more every day. Get organized and conquer your goals!",
+    "size": 40,
+    "reviews": 11500,
+    "ratingAvg": 4.5,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 6500 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1675177181386-47292e886953?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "EchoRecorder Voice Notes",
+    "companyName": "SoundCapture Solutions",
+    "id": 17,
+    "description": "Capture every thought and idea with EchoRecorder Voice Notes, your intelligent audio recording app. Record lectures, meetings, interviews, or personal memos with crystal-clear sound quality. Transcribe your audio to text with advanced AI, making it easy to search and organize your notes. Add timestamps, tags, and photos to your recordings for rich context. Edit, trim, and share your audio files effortlessly. EchoRecorder is perfect for students, professionals, journalists, and anyone who needs to quickly capture spoken information. Never miss a detail again and enhance your note-taking experience with EchoRecorder Voice Notes!",
+    "size": 60,
+    "reviews": 6000,
+    "ratingAvg": 4.6,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 2800 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1524863479829-916d8e77f114?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "ZenFlow Yoga & Fitness",
+    "companyName": "Harmony Health",
+    "id": 18,
+    "description": "Find your inner calm and strengthen your body with ZenFlow Yoga & Fitness. This app offers a diverse range of yoga, meditation, and fitness classes for all levels. Choose from guided sessions led by expert instructors, focusing on flexibility, strength, balance, and relaxation. Personalized workout plans and progress tracking help you stay consistent and achieve your wellness goals. Access a library of soothing music and calming sounds to enhance your practice. Whether you're a seasoned yogi or a beginner, ZenFlow provides a supportive environment to cultivate a healthier, happier you. Start your journey to holistic well-being today!",
+    "size": 100,
+    "reviews": 10500,
+    "ratingAvg": 4.8,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 6530 }
+    ]
+  },
+  {
+    "image": "https://plus.unsplash.com/premium_photo-1663047707111-c022dee3abe7?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "HomeChef Meal Prep",
+    "companyName": "NutriPlan Solutions",
+    "id": 19,
+    "description": "Simplify your cooking and eating with HomeChef Meal Prep, your intelligent kitchen assistant. Plan your weekly meals, generate customized grocery lists, and discover healthy recipes tailored to your dietary needs and preferences. HomeChef helps you track macros, manage food inventory, and minimize waste. With easy-to-follow instructions and portion control guidance, meal prepping becomes effortless and enjoyable. Whether you're aiming for weight loss, muscle gain, or simply healthier eating habits, HomeChef provides the tools and inspiration to succeed. Take the stress out of cooking and eat better with HomeChef Meal Prep!",
+    "size": 70,
+    "reviews": 8000,
+    "ratingAvg": 4.6,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4180 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1675453987881-003500b1d65e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "StudyFlow Planner",
+    "companyName": "Academic Edge",
+    "id": 20,
+    "description": "Excel in your studies with StudyFlow Planner, the ultimate academic organizer. Manage your courses, assignments, exams, and study sessions with ease. Create personalized study schedules, set reminders, and track your progress for each subject. StudyFlow offers a built-in Pomodoro timer to enhance focus and productivity. Collaborate with classmates on group projects and share notes seamlessly. Whether you're a high school student, university learner, or pursuing professional development, StudyFlow Planner helps you stay organized, reduce stress, and achieve your academic goals. Unlock your full learning potential and make every study session count!",
+    "size": 50,
+    "reviews": 9000,
+    "ratingAvg": 4.7,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 5250 }
+    ]
+  }
+]
