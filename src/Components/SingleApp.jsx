@@ -1,5 +1,4 @@
 import React from "react";
-import demoImg from "../assets/demo-app (1).webp";
 import { LuDownload } from "react-icons/lu";
 import { FaStar } from "react-icons/fa";
 const SingleApp = ({ appData }) => {

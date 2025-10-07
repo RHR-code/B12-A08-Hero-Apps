@@ -6,10 +6,9 @@ import { NavLink } from "react-router";
 const TopApps = () => {
   const { apps, loading, error } = useAppData();
   const topApps = apps.slice(0, 8);
-  console.log(apps, loading, error);
 
   return (
-    <div>
+    <div className="px-5">
       <div className="text-center mt-20">
         <h1 className="font-bold text-5xl">Trending Apps</h1>
         <p className="text-lg mt-4 mb-10">
@@ -21,6 +20,11 @@ const TopApps = () => {
         {topApps.map((app) => (
           <SingleApp key={app.id} appData={app} />
         ))}
+        {error ? (
+          <div className="flex justify-center items-center">{error}</div>
+        ) : (
+          ""
+        )}
       </div>
       <div className="flex justify-center mt-10 rounded-sm">
         <NavLink
