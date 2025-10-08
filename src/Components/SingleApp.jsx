@@ -1,10 +1,18 @@
 import React from "react";
 import { LuDownload } from "react-icons/lu";
 import { FaStar } from "react-icons/fa";
+import { useNavigate } from "react-router";
 const SingleApp = ({ appData }) => {
-  const { image, title, ratingAvg, downloads } = appData;
+  const { image, title, ratingAvg, downloads, id } = appData;
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate(`/app/${id}`);
+  };
   return (
-    <div className="bg-white shadow-lg p-4 rounded-sm hover:scale-105 transition ease-in-out">
+    <div
+      onClick={handleClick}
+      className="bg-white shadow-lg p-4 rounded-sm hover:scale-105 transition ease-in-out"
+    >
       <img className="rounded-lg h-[316px] object-cover" src={image} alt="" />
       <h3 className="font-medium text-xl my-4">{title}</h3>
       <div className="flex justify-between">
