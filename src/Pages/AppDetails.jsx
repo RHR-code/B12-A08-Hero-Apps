@@ -4,6 +4,7 @@ import { useParams } from "react-router";
 import { FaStar } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import Like from "../assets/Like.png";
+import ProductChart from "../Components/ProductChart";
 
 const AppDetails = () => {
   const { apps, error, loading } = useAppData();
@@ -14,17 +15,26 @@ const AppDetails = () => {
     const singleApp = apps.find((app) => app.id === Number(id));
     setApp(singleApp);
   }, [apps, id]);
-  const { image, title, ratingAvg, downloads, companyName, reviews, size } =
-    app || {};
+  const {
+    image,
+    title,
+    ratingAvg,
+    downloads,
+    companyName,
+    reviews,
+    size,
+    ratings,
+    description,
+  } = app || {};
   if (loading) return <div>data is loading...</div>;
   if (error) return <div>{error}</div>;
-  console.log(app);
+  let newRatings = ratings?.toReversed();
 
   return (
     <>
-      <div className="flex gap-10 my-20 px-5">
+      <div className="flex gap-10 my-20 px-5 flex-col md:flex-row">
         <div>
-          <img className="h-[350px]" src={image} alt="" />
+          <img className="md:h-[350px]" src={image} alt="" />
         </div>
         <div>
           <h1 className="font-bold text-[32px]">{title}</h1>
@@ -32,7 +42,7 @@ const AppDetails = () => {
             <span className="text-[#627382]">Developed by</span>{" "}
             <span className="text-transparent font-bold">{companyName}</span>
           </p>
-          <div className="flex items-center gap-10 ">
+          <div className="flex md:items-center gap-10 flex-col md:flex-row ">
             <div className="flex flex-col  gap-2 ">
               <p className="text-4xl ">
                 <FiDownload stroke="#54CF68" />
@@ -53,11 +63,14 @@ const AppDetails = () => {
               <h1 className="text-[40px] font-extrabold">{reviews}</h1>
             </div>
           </div>
-          <button className="bg-[#00D390] font-semibold text-lg py-3.5 px-5 rounded-sm text-white">
+          <button className="bg-[#00D390] font-semibold text-lg py-3.5 px-5 rounded-sm text-white mt-5 md:mt-2">
             {" "}
             Install Now ({size} MB)
           </button>
         </div>
+      </div>
+      <div>
+        <ProductChart ratings={newRatings} description={description} />
       </div>
     </>
   );
