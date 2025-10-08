@@ -5,12 +5,24 @@ import { FaStar } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import Like from "../assets/Like.png";
 import ProductChart from "../Components/ProductChart";
+import {
+  getInstalledAppsFromLS,
+  setInstalledAppsToLS,
+} from "../Localstorage/InstalledLS";
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
   const { apps, error, loading } = useAppData();
+  const [isInstalled, setIsInstalled] = useState(false);
   const { id } = useParams();
   const [app, setApp] = useState({});
-
+  useEffect(() => {
+    if (getInstalledAppsFromLS().some((lsId) => lsId === id)) {
+      setIsInstalled(true);
+    } else {
+      setIsInstalled(false);
+    }
+  }, [id]);
   useEffect(() => {
     const singleApp = apps.find((app) => app.id === Number(id));
     setApp(singleApp);
@@ -29,6 +41,11 @@ const AppDetails = () => {
   if (loading) return <div>data is loading...</div>;
   if (error) return <div>{error}</div>;
   let newRatings = ratings?.toReversed();
+
+  const handleInstall = () => {
+    setInstalledAppsToLS(id);
+    setIsInstalled(true);
+  };
 
   return (
     <>
@@ -63,10 +80,23 @@ const AppDetails = () => {
               <h1 className="text-[40px] font-extrabold">{reviews}</h1>
             </div>
           </div>
-          <button className="bg-[#00D390] font-semibold text-lg py-3.5 px-5 rounded-sm text-white mt-5 md:mt-2">
-            {" "}
-            Install Now ({size} MB)
-          </button>
+          {isInstalled ? (
+            <button
+              onClick={handleInstall}
+              className="bg-[#00D390] font-semibold text-lg py-3.5 px-5 rounded-sm text-white mt-5 md:mt-2"
+            >
+              {" "}
+              Installed
+            </button>
+          ) : (
+            <button
+              onClick={handleInstall}
+              className="bg-[#00D390] font-semibold text-lg py-3.5 px-5 rounded-sm text-white mt-5 md:mt-2"
+            >
+              {" "}
+              Install Now ({size} MB)
+            </button>
+          )}
         </div>
       </div>
       <div>

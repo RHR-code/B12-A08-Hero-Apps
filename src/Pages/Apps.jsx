@@ -14,15 +14,9 @@ const Apps = () => {
   return (
     <>
       <div className="px-5">
-        <div className="text-center mt-20">
-          <h1 className="font-bold text-5xl">Our All Applications</h1>
-          <p className="text-lg mt-4 mb-10">
-            Explore All Apps on the Market developed by us. We code for Millions
-          </p>
-        </div>
         {/* search apps */}
-        <div className="flex items-center justify-between mb-4">
-          <h4 className="font-semibold text-2xl">
+        <div className="flex items-center justify-between mb-4 flex-col-reverse gap-5 md:flex-row md:gap-0">
+          <h4 className="font-semibold text-lg md:text-2xl">
             ({searchedApps.length}) Apps Found
           </h4>
           <label className="input">

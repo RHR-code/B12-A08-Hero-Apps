@@ -9,7 +9,7 @@ const useAppData = () => {
       .then((res) => res.json())
       .then((data) => setApps(data))
       .catch((err) => setError(err))
-      .finally((load) => setLoading(load));
+      .finally(() => setLoading(false));
   }, []);
   return { loading, error, apps };
 };
