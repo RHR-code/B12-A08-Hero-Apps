@@ -3,6 +3,7 @@ import playImg from "../assets/playstore.png";
 import appImg from "../assets/appstore.png";
 import banner from "../assets/hero.png";
 import TopApps from "../Components/TopApps";
+import { Link } from "react-router";
 const Home = () => {
   return (
     <>
@@ -18,12 +19,16 @@ const Home = () => {
               ideas into digital experiences that truly make an impact.
             </p>
             <div className="flex flex-col md:flex-row items-center gap-4 justify-center mb-10 ">
-              <button className="text-xl font-semibold flex border p-4 gap-2.5 rounded-sm border-[#D2D2D2]">
-                <img src={playImg} alt="" /> Google Play
-              </button>
-              <button className="text-xl font-semibold flex border p-4 gap-2.5 rounded-sm border-[#D2D2D2]">
-                <img src={appImg} alt="" /> App Store
-              </button>
+              <Link to="https://play.google.com/store/games?hl=en&pli=1">
+                <button className="text-xl font-semibold flex border p-4 gap-2.5 rounded-sm border-[#D2D2D2]">
+                  <img src={playImg} alt="" /> Google Play
+                </button>
+              </Link>
+              <Link to="https://www.apple.com/app-store/">
+                <button className="text-xl font-semibold flex border p-4 gap-2.5 rounded-sm border-[#D2D2D2]">
+                  <img src={appImg} alt="" /> App Store
+                </button>
+              </Link>
             </div>
           </div>
           <img src={banner} alt="" />
@@ -33,21 +38,21 @@ const Home = () => {
             Trusted by Millions, Built for You
           </h1>
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 pt-10">
-            <div className="text-base px-16">
+            <div className="text-base px-16 text-[#00D390]">
               <h4>Total Downloads</h4>
-              <h1 className="font-extrabold md:text-[64px] text-[48px]">
+              <h1 className="font-extrabold md:text-[64px] text-[48px] ">
                 29.6M
               </h1>
               <h4>21% more than last month</h4>
             </div>
-            <div className="text-base px-16">
+            <div className="text-base px-16 text-[#FF8811]">
               <h4>Total Reviews</h4>
               <h1 className="font-extrabold md:text-[64px] text-[48px]">
                 906K
               </h1>
               <h4>46% more than last month</h4>
             </div>
-            <div className="text-base px-16">
+            <div className="text-base px-16 text-[#001931]">
               <h4>Active Apps</h4>
               <h1 className="font-extrabold md:text-[64px] text-[48px]">
                 132+

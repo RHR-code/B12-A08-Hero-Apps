@@ -9,7 +9,7 @@ import {
   getInstalledAppsFromLS,
   setInstalledAppsToLS,
 } from "../Localstorage/InstalledLS";
-import { toast } from "react-toastify";
+import AppNotFound from "../Components/AppNotFound";
 
 const AppDetails = () => {
   const { apps, error, loading } = useAppData();
@@ -38,7 +38,12 @@ const AppDetails = () => {
     ratings,
     description,
   } = app || {};
-  if (loading) return <div>data is loading...</div>;
+  if (loading)
+    return (
+      <div className="w-full min-h-[400px] flex justify-center items-center">
+        <span className="loading loading-bars loading-xl"></span>
+      </div>
+    );
   if (error) return <div>{error}</div>;
   let newRatings = ratings?.toReversed();
 
@@ -46,6 +51,9 @@ const AppDetails = () => {
     setInstalledAppsToLS(id);
     setIsInstalled(true);
   };
+
+  const singleApp = apps.find((app) => app.id === Number(id));
+  if (!singleApp) return <AppNotFound condition="forDetailApp" />;
 
   return (
     <>
@@ -64,8 +72,8 @@ const AppDetails = () => {
               <p className="text-4xl ">
                 <FiDownload stroke="#54CF68" />
               </p>
-              <p className="text-[#001931]">Average Ratings</p>
-              <h1 className="text-[40px] font-extrabold ">{downloads}</h1>
+              <p className="text-[#001931]">Downloads</p>
+              <h1 className="text-[40px] font-extrabold ">{downloads}M</h1>
             </div>
             <div className="flex flex-col  gap-2">
               <p className="text-4xl text-[#FF8811]">

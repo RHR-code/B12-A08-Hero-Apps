@@ -6,7 +6,7 @@ const SingleApp = ({ appData }) => {
   const { image, title, ratingAvg, downloads, id } = appData;
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate(`/app/${id}`);
+    navigate(`/apps/${id}`);
   };
   return (
     <div

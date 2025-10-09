@@ -7,7 +7,7 @@ const Installation = () => {
   const [sort, setSort] = useState("");
   const { apps, error, loading } = useAppData();
   const [installedApps, setInstalledApps] = useState([]);
-
+  const [delay, setDelay] = useState(false);
   useEffect(() => {
     if (!apps.length) return;
     const storedApp = getInstalledAppsFromLS().map((id) =>
@@ -22,17 +22,23 @@ const Installation = () => {
       const sortedApps = [...installedApps].sort(
         (a, b) => b.downloads - a.downloads
       );
-      setInstalledApps(sortedApps);
+      setDelay(true);
+      setTimeout(() => {
+        setInstalledApps(sortedApps);
+        setDelay(false);
+      }, 500);
     } else if (sort === "Low-High") {
       const sortedApps = [...installedApps].sort(
         (a, b) => a.downloads - b.downloads
       );
-      setInstalledApps(sortedApps);
+      setDelay(true);
+      setTimeout(() => {
+        setInstalledApps(sortedApps);
+        setDelay(false);
+      }, 500);
     }
   }, [sort]);
 
-  if (loading) return <div>App is Loading...</div>;
-  if (error) return <div>{error}</div>;
   return (
     <>
       <div className="text-center my-20 px-5 ">
@@ -42,13 +48,13 @@ const Installation = () => {
         </p>
         <div className="flex items-center justify-between mb-4 flex-col-reverse gap-5 md:flex-row md:gap-0">
           <h4 className="font-semibold text-lg md:text-2xl">
-            (1 apps) Apps Found
+            ({installedApps.length} apps) Apps Found
           </h4>
           <fieldset className="fieldset">
             <select
               value={sort}
               onChange={(e) => setSort(e.target.value)}
-              className="select"
+              className="select w-[200px]"
             >
               <option>Sort By Size</option>
               <option>High-Low</option>
@@ -57,7 +63,16 @@ const Installation = () => {
           </fieldset>
         </div>
         <div>
-          {installedApps.length > 0 &&
+          {loading && (
+            <div className="w-full min-h-[400px] flex justify-center items-center">
+              <span className="loading loading-bars loading-xl"></span>
+            </div>
+          )}
+          {delay ? (
+            <div className="w-full min-h-[400px] flex justify-center items-center">
+              <span className="loading loading-bars loading-xl"></span>
+            </div>
+          ) : (
             installedApps.map((app) => (
               <SingleInstalledApps
                 key={app.id}
@@ -67,7 +82,9 @@ const Installation = () => {
                 loading={loading}
                 error={error}
               />
-            ))}
+            ))
+          )}
+          {error && <div>{error}</div>}
         </div>
       </div>
     </>

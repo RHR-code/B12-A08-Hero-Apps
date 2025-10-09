@@ -9,14 +9,20 @@ import {
   Route,
 } from "react-router";
 import AppDetails from "../Pages/AppDetails.jsx";
+import AppNotFound from "../Components/AppNotFound.jsx";
+import PageNotFound from "../Components/PageNotFound.jsx";
 
 const MainRoute = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<MainLayout />}>
+    <Route errorElement={<PageNotFound />} path="/" element={<MainLayout />}>
       <Route index={true} element={<Home />}></Route>
       <Route path="/apps" element={<Apps />} />
 
-      <Route path="/app/:id" element={<AppDetails />} />
+      <Route
+        path="/apps/:id"
+        element={<AppDetails />}
+        errorElement={<AppNotFound />}
+      />
 
       <Route path="/installation" element={<Installation />} />
     </Route>

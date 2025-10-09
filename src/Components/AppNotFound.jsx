@@ -1,6 +1,15 @@
 import React from "react";
 import appErrImg from "../assets/App-Error.png";
-const AppNotFound = ({ setSearch }) => {
+import { useNavigate } from "react-router";
+const AppNotFound = ({ setSearch, condition }) => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    if (condition === "forApp") {
+      setSearch("");
+    } else if (condition === "forDetailApp") {
+      navigate(-1);
+    }
+  };
   return (
     <div className="flex flex-col items-center my-20">
       <img src={appErrImg} alt="" />
@@ -11,7 +20,7 @@ const AppNotFound = ({ setSearch }) => {
       </p>
       <div className="flex justify-center mt-10 rounded-sm">
         <button
-          onClick={() => setSearch("")}
+          onClick={() => handleClick()}
           className="px-10 py-4 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:opacity-70 hover:scale-105 text-white font-semibold text-base"
         >
           {" "}

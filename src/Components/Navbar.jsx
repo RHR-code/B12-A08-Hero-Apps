@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import { FaGithub } from "react-icons/fa";
 const Navbar = () => {
   return (
@@ -66,11 +66,13 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="flex items-center gap-2 text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text">
-          {" "}
-          <img className="w-10" src={logo} alt="" />{" "}
-          <h2 className="text-transparent font-bold text-base">HERO.IO</h2>
-        </div>
+
+        <Link to="/">
+          <div className="flex items-center gap-2 text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text">
+            <img className="w-10" src={logo} alt="" />{" "}
+            <h2 className="text-transparent font-bold text-base">HERO.IO</h2>
+          </div>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 font-semibold text-base">
@@ -113,10 +115,12 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold text-base">
-          {" "}
-          <FaGithub /> Contribute
-        </button>
+        <Link to="https://github.com/RHR-code">
+          <button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold text-base">
+            {" "}
+            <FaGithub /> Contribute
+          </button>
+        </Link>
       </div>
     </div>
   );
