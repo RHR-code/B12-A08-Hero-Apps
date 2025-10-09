@@ -8,7 +8,12 @@ const Installation = () => {
   const { apps, error, loading } = useAppData();
   const [installedApps, setInstalledApps] = useState([]);
   const [delay, setDelay] = useState(false);
+  const [pageDelay, setPageDelay] = useState(false);
   useEffect(() => {
+    setPageDelay(true);
+    setTimeout(() => {
+      setPageDelay(false);
+    }, 300);
     if (!apps.length) return;
     const storedApp = getInstalledAppsFromLS().map((id) =>
       apps.find((item) => item.id === Number(id))
@@ -38,7 +43,12 @@ const Installation = () => {
       }, 500);
     }
   }, [sort]);
-
+  if (pageDelay)
+    return (
+      <div className="w-full min-h-[400px] flex justify-center items-center">
+        <span className="loading loading-bars loading-xl"></span>
+      </div>
+    );
   return (
     <>
       <div className="text-center my-20 px-5 ">
@@ -48,7 +58,7 @@ const Installation = () => {
         </p>
         <div className="flex items-center justify-between mb-4 flex-col-reverse gap-5 md:flex-row md:gap-0">
           <h4 className="font-semibold text-lg md:text-2xl">
-            ({installedApps.length} apps) Apps Found
+            ({installedApps.length}) Apps Found
           </h4>
           <fieldset className="fieldset">
             <select

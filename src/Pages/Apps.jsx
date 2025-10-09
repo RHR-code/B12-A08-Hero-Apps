@@ -6,11 +6,16 @@ import AppNotFound from "../Components/AppNotFound";
 const Apps = () => {
   const { apps, loading, error } = useAppData();
   const [delay, setDelay] = useState(null);
+  const [pageDelay, setPageDelay] = useState(false);
   const [search, setSearch] = useState("");
   const searchText = search.trim().toLocaleLowerCase();
   const [searchedApps, setSearchedApps] = useState(apps);
 
   useEffect(() => {
+    setPageDelay(true);
+    setTimeout(() => {
+      setPageDelay(false);
+    }, 300);
     if (!apps.length) return;
     setDelay(true);
     setTimeout(() => {
@@ -21,6 +26,12 @@ const Apps = () => {
       setDelay(false);
     }, 500);
   }, [apps, searchText]);
+  if (pageDelay)
+    return (
+      <div className="w-full min-h-[400px] flex justify-center items-center">
+        <span className="loading loading-bars loading-xl"></span>
+      </div>
+    );
 
   return (
     <>

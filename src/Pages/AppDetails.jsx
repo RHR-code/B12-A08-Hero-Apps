@@ -16,7 +16,12 @@ const AppDetails = () => {
   const [isInstalled, setIsInstalled] = useState(false);
   const { id } = useParams();
   const [app, setApp] = useState({});
+  const [pageDelay, setPageDelay] = useState(false);
   useEffect(() => {
+    setPageDelay(true);
+    setTimeout(() => {
+      setPageDelay(false);
+    }, 300);
     if (getInstalledAppsFromLS().some((lsId) => lsId === id)) {
       setIsInstalled(true);
     } else {
@@ -54,7 +59,12 @@ const AppDetails = () => {
 
   const singleApp = apps.find((app) => app.id === Number(id));
   if (!singleApp) return <AppNotFound condition="forDetailApp" />;
-
+  if (pageDelay)
+    return (
+      <div className="w-full min-h-[400px] flex justify-center items-center">
+        <span className="loading loading-bars loading-xl"></span>
+      </div>
+    );
   return (
     <>
       <div className="flex gap-10 my-20 px-5 flex-col md:flex-row">

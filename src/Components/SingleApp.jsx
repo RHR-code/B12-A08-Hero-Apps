@@ -13,11 +13,11 @@ const SingleApp = ({ appData }) => {
       onClick={handleClick}
       className="bg-white shadow-lg p-4 rounded-sm hover:scale-105 transition ease-in-out"
     >
-      <img className="rounded-lg h-[316px] object-cover" src={image} alt="" />
+      <img className="rounded-lg h-[316px] object-cover " src={image} alt="" />
       <h3 className="font-medium text-xl my-4">{title}</h3>
       <div className="flex justify-between">
         <button className="font-medium text-base flex items-center gap-2 bg-[#F1F5E8] py-1.5 px-2.5 rounded-sm text-[#00D390]">
-          <LuDownload /> {downloads}
+          <LuDownload /> {downloads}M
         </button>
         <button className="font-medium text-base flex items-center gap-2 text-[#FF8811] py-1.5 px-2.5 rounded-sm bg-[#FFF0E1]">
           <FaStar /> {ratingAvg}

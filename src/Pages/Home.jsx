@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import playImg from "../assets/playstore.png";
 import appImg from "../assets/appstore.png";
 import banner from "../assets/hero.png";
 import TopApps from "../Components/TopApps";
 import { Link } from "react-router";
 const Home = () => {
+  const [pageDelay, setPageDelay] = useState(false);
+  useEffect(() => {
+    setPageDelay(true);
+    setTimeout(() => {
+      setPageDelay(false);
+    }, 300);
+  }, []);
+  if (pageDelay)
+    return (
+      <div className="w-full min-h-[400px] flex justify-center items-center">
+        <span className="loading loading-bars loading-xl"></span>
+      </div>
+    );
   return (
     <>
       <div className="mb-20">
