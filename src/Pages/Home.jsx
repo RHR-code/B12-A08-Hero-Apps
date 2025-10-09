@@ -33,12 +33,12 @@ const Home = () => {
             </p>
             <div className="flex flex-col md:flex-row items-center gap-4 justify-center mb-10 ">
               <Link to="https://play.google.com/store/games?hl=en&pli=1">
-                <button className="text-xl font-semibold flex border p-4 gap-2.5 rounded-sm border-[#D2D2D2]">
+                <button className="text-xl font-semibold flex border p-4 gap-2.5 rounded-sm border-[#D2D2D2] hover:scale-105 shadow-2xl">
                   <img src={playImg} alt="" /> Google Play
                 </button>
               </Link>
               <Link to="https://www.apple.com/app-store/">
-                <button className="text-xl font-semibold flex border p-4 gap-2.5 rounded-sm border-[#D2D2D2]">
+                <button className="text-xl font-semibold flex border p-4 gap-2.5 rounded-sm border-[#D2D2D2] hover:scale-105 shadow-2xl">
                   <img src={appImg} alt="" /> App Store
                 </button>
               </Link>

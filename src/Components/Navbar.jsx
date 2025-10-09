@@ -116,7 +116,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <Link to="https://github.com/RHR-code">
-          <button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold text-base">
+          <button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold text-base hover:scale-105">
             {" "}
             <FaGithub /> Contribute
           </button>

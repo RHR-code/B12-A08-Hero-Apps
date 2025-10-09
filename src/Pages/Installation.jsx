@@ -66,7 +66,9 @@ const Installation = () => {
               onChange={(e) => setSort(e.target.value)}
               className="select w-[200px]"
             >
-              <option>Sort By Size</option>
+              <option value="" disabled={true}>
+                Sort By Size
+              </option>
               <option>High-Low</option>
               <option>Low-High</option>
             </select>
