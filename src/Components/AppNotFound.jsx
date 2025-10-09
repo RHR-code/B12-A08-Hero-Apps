@@ -13,8 +13,10 @@ const AppNotFound = ({ setSearch, condition }) => {
   return (
     <div className="flex flex-col items-center my-20">
       <img src={appErrImg} alt="" />
-      <h1 className="font-semibold text-5xl pt-4">OPPS!! APP NOT FOUND</h1>
-      <p className="text-xl pt-4 ">
+      <h1 className="font-semibold text-3xl md:text-5xl pt-4">
+        OPPS!! APP NOT FOUND
+      </h1>
+      <p className="text-center md:text-xl pt-4 ">
         The App you are requesting is not found on our system. please try
         another apps
       </p>

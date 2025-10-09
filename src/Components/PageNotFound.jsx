@@ -6,8 +6,10 @@ const PageNotFound = () => {
   return (
     <div className="flex flex-col items-center my-20">
       <img src={pageErrImg} alt="" />
-      <h1 className="font-semibold text-5xl pt-4">Oops, page not found!</h1>
-      <p className="text-xl pt-4 ">
+      <h1 className="font-semibold text-4xl md:text-5xl pt-4">
+        Oops, page not found!
+      </h1>
+      <p className=" text-center md:text-xl pt-4 ">
         The page you are looking for is not available.
       </p>
       <div className="flex justify-center mt-10 rounded-sm">

@@ -12,10 +12,6 @@ const Apps = () => {
   const [searchedApps, setSearchedApps] = useState(apps);
 
   useEffect(() => {
-    setPageDelay(true);
-    setTimeout(() => {
-      setPageDelay(false);
-    }, 300);
     if (!apps.length) return;
     setDelay(true);
     setTimeout(() => {
@@ -26,6 +22,12 @@ const Apps = () => {
       setDelay(false);
     }, 500);
   }, [apps, searchText]);
+  useEffect(() => {
+    setPageDelay(true);
+    setTimeout(() => {
+      setPageDelay(false);
+    }, 300);
+  }, []);
   if (pageDelay)
     return (
       <div className="w-full min-h-[400px] flex justify-center items-center">
