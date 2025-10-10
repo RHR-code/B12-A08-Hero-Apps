@@ -67,7 +67,7 @@ const Installation = () => {
               className="select w-[200px]"
             >
               <option value="" disabled={true}>
-                Sort By Size
+                Sort by Downloads
               </option>
               <option>High-Low</option>
               <option>Low-High</option>
